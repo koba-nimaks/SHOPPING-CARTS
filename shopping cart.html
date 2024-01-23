@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+
+</head>
+
+<body>
+
+    <!-- <navbar> -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light navish">
+            <div class="container-fluid">
+                <a class="navbar-brand koba" href="#"><b>Shopping Cart</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active navy d-grid justify-content-end align-content-center"
+                                aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navy" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navy" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navy" href="#">FAQ's</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <div class="container-fluid" style="margin-top: 90px;">
+            <!-- ROW 1 -->
+            <div class="row">
+                <div class="col-2 size_btn justify-content-end justify-content-between">
+                    <h2>Sizes</h2> <br>
+                    <button type="button" class="btn btn-secondary getbutton rounded-circle">XS</button>
+                    <button type="button" class="btn btn-secondary getbutton rounded-circle">S</button>
+                    <button type="button" class="btn btn-secondary getbutton rounded-circle">ML</button> <br>
+                    <button type="button" class="btn btn-secondary getbutton rounded-circle mt-1">L</button>
+                    <button type="button" class="btn btn-secondary getbutton rounded-circle">XL</button>
+                    <button type="button" class="btn btn-secondary getbutton rounded-circle">XS</button> <br><br>
+                    <p>Leave a star on Github if this repository was useful</p>
+                    <button type="button" class="btn btn-secondary getbutton"><i class="fa-solid fa-star"></i>&#9733:Star</button>
+                    <button type="button" class="btn btn-secondary getbutton rounded-circle">848</button>
+                
+                </div>
+                <div class="col-10">
+                    <div class="d-flex justify-content-between"><p><strong>16 product(s) found</strong></p>
+                        <select class="form-select w-25">
+                            <option selected="Order by">Order by</option>
+                            <option value="1">Kiki</option>
+                            <option value="2">Kay</option>
+                            <option value="3">Kobby</option>
+                        </select>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Hipster Green</h5>
+                                  <p class="card-text" style="text-align: center;"> $1000.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Brown Molly</h5>
+                                  <p class="card-text" style="text-align: center;"> $2500.99<br> or9 x$1.211 <br> Leather Brown Molly sofa suitable for living rooms, office spaces and lounges</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=2374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Sweet Matata</h5>
+                                  <p class="card-text" style="text-align: center;"> $2400.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Marley Dickly</h5>
+                                  <p class="card-text" style="text-align: center;"> $2444.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            <!-- ROW 2 -->
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1491926626787-62db157af940?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNvZmF8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Gray Matter</h5>
+                                  <p class="card-text" style="text-align: center;"> $2330.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1573866926487-a1865558a9cf?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvZmF8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Leathery Brown</h5>
+                                  <p class="card-text" style="text-align: center;"> $3422.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1512212621149-107ffe572d2f?q=80&w=2380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Skinny Dippy</h5>
+                                  <p class="card-text" style="text-align: center;"> $1500.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1541919833074-a92ca380fa4b?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Blue Blue</h5>
+                                  <p class="card-text" style="text-align: center;"> $1600.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            <!-- ROW 3 -->
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1493030299203-515cf57a840e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Lady in Red</h5>
+                                  <p class="card-text" style="text-align: center;"> $10.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1550931215-b4d517378a5e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Grey Yellow</h5>
+                                  <p class="card-text" style="text-align: center;"> $10.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1638962502979-05d81dcaa096?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Sweet Heart</h5>
+                                  <p class="card-text" style="text-align: center;"> $10.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card border-light" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1611633249734-d344363b0048?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Adwoa Atta</h5>
+                                  <p class="card-text" style="text-align: center;"> $10.99<br> or9 x$1.211 <br> Hipster green couch sofa with brown wooden legs on wooden floor</p>
+                                  <a style="width: 250px;" href="#" class="btn btn-dark btn-lg">ADD TO CART</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+        </div>
+       
+
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
